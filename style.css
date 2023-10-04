@@ -1,0 +1,153 @@
+html {
+    font-size: 1rem; 
+}
+
+body {
+    background-image: url(https://images.ctfassets.net/cnu0m8re1exe/6FXIifvsqgc4djOGE4klDa/d08c250a062604e29226a8572727c5aa/shutterstock_376537891-_1_.jpg_mw_900_mh_600);
+
+}
+
+.content {
+    text-align: center;
+    
+}
+
+.welcome-box {
+    background-color: rgba(1, 1, 1, 0.9);
+    color: #fff;
+    font-size: 1.5rem; 
+    border-radius: 1rem;
+    margin: 8rem auto;
+    display: inline-block;
+    padding: 2rem;
+    max-width: 37.5rem;
+    height: 18.75rem; 
+    position: relative;
+}
+
+.welcome-box h1 {
+    margin: 0;
+    padding-bottom: 0.3125rem; 
+    text-align: center;
+}
+
+.welcome-box hr {
+    border: none;
+    border-top: 0.0625rem solid #fff; 
+    margin: 0.3125rem 0; 
+}
+
+.welcome-box p {
+    margin: 1rem;
+    text-align: center;
+}
+
+.button {
+    background-color: #fff;
+    color: #0074D9;
+    font-size: 1rem; 
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem; 
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s}
+
+.button:hover {
+    background-color: #6e6e6e; 
+    color: #e60707; 
+}
+.calculator {
+    background-color: #000;
+    color: #00f0f6;
+    text-align: center;
+    border-radius: 1rem;
+    width: 30rem; 
+    margin: 10rem auto; 
+    padding: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 240, 246, 0.5); 
+    margin: 0rem auto;
+}
+
+.title {
+    color: #00f0f6; 
+    font-size: 1.8rem; 
+    margin: 0 0 1rem; 
+}
+
+.calculator .display input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #000; 
+    color: #00f0f6; 
+    border: none;
+    border-bottom: 0.0625rem solid #00f0f6; 
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.2rem;
+    margin-top: 1rem;
+}
+
+.calculator button {
+    background-color: #000; 
+    color: #00f0f6;
+    font-size: 1.5rem;
+    border: 0.0625rem solid #00f0f6; 
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.calculator button:hover {
+    background-color: #00f0f6; 
+    color: #000; 
+}
+
+.button-container {
+    text-align: center; 
+    margin-top: 7rem; 
+}
+
+.button-link {
+    background-color: #000; 
+    color: #00f0f6; 
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem; 
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #6e6e6e; 
+    color: #000; 
+}
+
+.calculator .buttons button[onclick*="+"],
+.calculator .buttons button[onclick*="-"],
+.calculator .buttons button[onclick*="/"],
+.calculator .buttons button[onclick*="*"],
+.calculator .buttons button[onclick*="calculateSquareRoot"] {
+    background-color: #437575; 
+    color: #000; 
+}
+
+.calculator .buttons button[onclick*="+"]:hover,
+.calculator .buttons button[onclick*="-"]:hover,
+.calculator .buttons button[onclick*="/"]:hover,
+.calculator .buttons button[onclick*="*"]:hover,
+.calculator .buttons button[onclick*="calculateSquareRoot"]:hover {
+    background-color: #000; 
+    color: #fff; 
+}
